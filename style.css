@@ -67,6 +67,9 @@ button{
     margin: 4px 2px;
     border-radius: 4px;
     font-weight: 700;
+    font-size: 12px;
+    height: 25px;
+    width: 110px;
 }
 
 .infomain{
@@ -116,7 +119,7 @@ button{
 }
 
 .quotetext{
-    font-size: 24px;
+    font-size: 36px;
     font-style: italic;
     font-weight: 100;
     flex-grow: 1;
@@ -126,4 +129,40 @@ button{
 .quotename{
     margin-top: 1px;
     text-align: right;
+}
+
+.ctablock{
+    background-color: #ffffff;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.ctacontent{
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ctatext{
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.ctaheader{
+    font-weight: 900;
+    margin: 1px;
+}
+
+.ctadesc{
+    margin: 1px;
+}
+
+.ctacontent button{
+    border: 1px solid;
+    border-color: #ffffff;
 }
