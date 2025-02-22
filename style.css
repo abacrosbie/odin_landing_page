@@ -166,3 +166,9 @@ button{
     border: 1px solid;
     border-color: #ffffff;
 }
+
+.footerblock{
+    background-color: #1F2937;
+    padding: 25px;
+    text-align: center;
+}
