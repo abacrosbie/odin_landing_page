@@ -68,3 +68,41 @@ button{
     border-radius: 4px;
     font-weight: 700;
 }
+
+.infomain{
+    background-color: #ffffff;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    gap: 20px;
+    text-align: center;
+}
+
+.infohead{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.infoblocks{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info{
+    max-width: 106px;
+}
+
+.infoblocks img{
+    padding: 50px;
+    margin: 2px;
+    border-radius: 18px;
+    border: 3px solid;
+    border-color: #3882f6;
+}
+
+.infoblocks p{
+    color: #1F2937;
+    font-size: 12px;
+}
